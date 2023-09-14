@@ -1,11 +1,40 @@
 @media only screen and (max-width: 768px) {
+
     .site-header,
     .container,
-     .row,
-     .col {
+    .row,
+    .col {
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .row {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .lessons .col {
         width: 100%;
         margin: 0 auto;
     }
-  }
 
- 
+    .steps .col {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
