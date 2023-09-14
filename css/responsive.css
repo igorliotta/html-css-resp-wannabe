@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+    .site-header,
+    .container,
+     .row,
+     .col {
+        width: 100%;
+        margin: 0 auto;
+    }
+  }
+
+ 
